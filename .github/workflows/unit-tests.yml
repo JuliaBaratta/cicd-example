@@ -11,7 +11,7 @@ jobs:
   
   test-python-3-14: 
     name: Testing Python 3.14
-    runs-on: umbuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - uses: actions/checkout@v7
       - uses: actions/setup-python@v5
